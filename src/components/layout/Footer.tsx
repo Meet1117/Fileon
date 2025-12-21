@@ -130,10 +130,10 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-background/60 text-sm">
-            © {currentYear} FileHub. All rights reserved.
+            © {currentYear} Fileon. All rights reserved.
           </p>
           <p className="text-background/60 text-sm flex items-center gap-1">
-            Designed & Developed by <a href="https://meetpatel.verce.app" className="font-bold text-background/70 underline">Meet Patel</a>  
+            Designed & Developed by <a href="https://patelmeet.vercel.app" className="font-bold text-background/70 underline">Meet Patel</a>  
           </p>
         </div>
       </div>
