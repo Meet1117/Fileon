@@ -96,7 +96,7 @@ const Header = () => {
               <Zap className="w-5 h-5 text-primary-foreground" />
             </motion.div>
             <span className="text-xl font-display font-bold text-gradient-primary">
-              FileHub
+              fileon
             </span>
           </Link>
 
