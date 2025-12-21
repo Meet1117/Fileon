@@ -52,7 +52,7 @@ const Footer = () => {
                 <Zap className="w-5 h-5 text-primary-foreground" />
               </motion.div>
               <span className="text-xl font-display font-bold text-background">
-                FileHub
+                Fileon
               </span>
             </Link>
             <p className="text-background/70 mb-6 max-w-sm">
