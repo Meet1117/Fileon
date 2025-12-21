@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Zap, Github, Twitter, Linkedin, Mail, Heart } from "lucide-react";
+import { Zap, Github, Twitter, Linkedin, Mail, Heart, Instagram } from "lucide-react";
 import { categories } from "@/data/tools";
 
 const Footer = () => {
@@ -25,10 +25,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "#", label: "Email" },
+    { icon: Instagram, href: "https://www.instagram.com/meet1117_/", label: "Instagram" },
+    { icon: Github, href: "https://github.com/Meet1117", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/meetpatel1705/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:developer.meetptl@gmail.com", label: "Email" },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Footer = () => {
                 <Zap className="w-5 h-5 text-primary-foreground" />
               </motion.div>
               <span className="text-xl font-display font-bold text-background">
-                Fileon
+                FileHub
               </span>
             </Link>
             <p className="text-background/70 mb-6 max-w-sm">
@@ -130,7 +130,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-background/60 text-sm">
-            © {currentYear} Fileon. All rights reserved.
+            © {currentYear} FileHub. All rights reserved.
           </p>
           <p className="text-background/60 text-sm flex items-center gap-1">
             Designed & Developed by <a href="https://meetpatel.verce.app" className="font-bold text-background/70 underline">Meet Patel</a>  
